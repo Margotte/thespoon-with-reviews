@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Top restaurants</h1>
+  <% @top_restaurants.each do |restaurant| %>
+    <p><%= restaurant.name %></p>
+    <p><%= "*" * restaurant.stars %></p>
+  <% end %>
+</div>
